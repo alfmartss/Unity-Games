@@ -29,7 +29,7 @@ public class ShipComponent : MonoBehaviour
         durability -= damage;
         if (durability<0)
         {
-            isOn = false;
+            SetOff();
             if (destroyOnBreak)
             {
                 Destroy(gameObject);
@@ -48,10 +48,17 @@ public class ShipComponent : MonoBehaviour
             p.AfterColisionWithComponent(this);
         }
     }
+    public virtual void SetOff()
+    {
+        Debug(gameObject.name + ".SetOff");
+        isOn = false;
+    }
+
 
     protected void Debug(object msg)
     {
         if (debug) UnityEngine.Debug.Log(msg);
     }
+
 
 }
