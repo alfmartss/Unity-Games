@@ -113,6 +113,8 @@ MonoBehaviour:
   maxDistance: 100
   m_damageType: energy
   damage: 50
+  audioOnFire: {fileID: 8300000, guid: 1ef69c4d8a860ce40915910c94c43ebc, type: 3}
+  audioOnCollision: {fileID: 8300000, guid: 712be96abd9ede746ac0fab4a4e78ab5, type: 3}
 --- !u!54 &9116932725857229473
 Rigidbody:
   m_ObjectHideFlags: 0

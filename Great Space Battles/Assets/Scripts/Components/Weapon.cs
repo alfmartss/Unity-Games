@@ -13,10 +13,13 @@ public class Weapon : ShipComponent
     float fireRange = 50.0f;
 
     public GameObject target;
+    private AudioSource audioSource;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = gameObject.GetComponentInParent<AudioSource>();
         Invoke("TryShootAgain", fireRate);
     }
 
@@ -38,7 +41,7 @@ public class Weapon : ShipComponent
     private void FireProjectile()      // ABSTRACTION
     {
         Vector3 direction = target.transform.position - transform.position;
-        Projectile.Fire(gameObject, direction, projectilePrefab);
+        Projectile.Fire(gameObject, direction, projectilePrefab, audioSource);
     }
 
     public override void OnTriggerEnter(Collider other)  // POLYMORPHISM

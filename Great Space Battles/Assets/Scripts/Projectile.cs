@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    private const float PROJECTILE_VOLUME_FACTOR = 0.3f;
     [SerializeField]
     private float m_speed;
 
@@ -32,12 +33,15 @@ public class Projectile : MonoBehaviour
 
     private GameObject weapon;
 
+    public AudioClip audioOnFire;
+    public AudioClip audioOnCollision;
+
     private void Start() 
     {
         initialPosition = transform.position;
     }
 
-    public static GameObject Fire(GameObject weapon, Vector3 direction, GameObject projectilePrefab)  // ABSTRACTION
+    public static GameObject Fire(GameObject weapon, Vector3 direction, GameObject projectilePrefab, AudioSource audioSource)  // ABSTRACTION
     {
         //  Quaternion lookRotation = Quaternion.LookRotation(direction);
         GameObject shell = Instantiate<GameObject>(projectilePrefab);
@@ -52,6 +56,11 @@ public class Projectile : MonoBehaviour
         p.weapon = weapon;
         // set initial speed 
         //p.v_speed = direction * p.m_speed;
+        if (p.audioOnFire != null && audioSource!=null)
+        {
+            audioSource.PlayOneShot(p.audioOnFire, PROJECTILE_VOLUME_FACTOR);
+        }
+
         return shell;
     }
 
@@ -78,6 +87,14 @@ public class Projectile : MonoBehaviour
 
     public void AfterColisionWithComponent(ShipComponent c)
     {
+        if (audioOnCollision!=null) {
+            AudioSource audioSource = c.gameObject.GetComponentInParent<AudioSource>();
+            if (audioSource != null)
+            {
+                audioSource.PlayOneShot(audioOnCollision, PROJECTILE_VOLUME_FACTOR);
+            }
+        }
+        
         Destroy(gameObject);
     }
 
