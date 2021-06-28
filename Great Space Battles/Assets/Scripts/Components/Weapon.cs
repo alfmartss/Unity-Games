@@ -31,7 +31,7 @@ public class Weapon : ShipComponent
 
     void TryShootAgain()
     {
-        if (isOn)
+        if (isOn && target!=null)
         {
             FireProjectile();
         }        

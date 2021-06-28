@@ -905,6 +905,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 403143085216475360, guid: 59b9b59dc874a8b44ae06436768404a4, type: 3}
+      propertyPath: debug
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4317141544148036919, guid: 59b9b59dc874a8b44ae06436768404a4, type: 3}
       propertyPath: m_Name
       value: Base 2
@@ -1083,7 +1087,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6530697505022395381, guid: 9431862c7f6c84d49b8f5a1225835a28, type: 3}
       propertyPath: debug
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6530697505022395381, guid: 9431862c7f6c84d49b8f5a1225835a28, type: 3}
       propertyPath: destroyOnBreak
@@ -1733,7 +1737,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6530697505022395381, guid: 9431862c7f6c84d49b8f5a1225835a28, type: 3}
       propertyPath: debug
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6530697505022395381, guid: 9431862c7f6c84d49b8f5a1225835a28, type: 3}
       propertyPath: destroyOnBreak
