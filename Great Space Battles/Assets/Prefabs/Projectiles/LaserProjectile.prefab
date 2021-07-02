@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speed: 1.5
-  maxDistance: 100
+  maxDistance: 200
   m_damageType: energy
   damage: 50
   audioOnFire: {fileID: 8300000, guid: 1ef69c4d8a860ce40915910c94c43ebc, type: 3}

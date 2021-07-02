@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    private const float PROJECTILE_VOLUME_FACTOR = 0.3f;
+    private const float PROJECTILE_VOLUME_FACTOR = 0.1f;
     [SerializeField]
     private float m_speed;
 
