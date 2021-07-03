@@ -8,7 +8,7 @@ public class Weapon : ShipComponent
     [SerializeField]
     GameObject projectilePrefab;
     [SerializeField]
-    float fireRate = 1.0f;
+    float fireLapse = 1.0f;
     [SerializeField]
     float fireRange = 50.0f;
 
@@ -20,7 +20,7 @@ public class Weapon : ShipComponent
     void Start()
     {
         audioSource = gameObject.GetComponentInParent<AudioSource>();
-        Invoke("TryShootAgain", fireRate);
+        Invoke("TryShootAgain", fireLapse);
     }
 
     // Update is called once per frame
@@ -35,7 +35,7 @@ public class Weapon : ShipComponent
         {
             FireProjectile();
         }        
-        Invoke("TryShootAgain", fireRate);
+        Invoke("TryShootAgain", fireLapse);
     }
 
     private void FireProjectile()      // ABSTRACTION

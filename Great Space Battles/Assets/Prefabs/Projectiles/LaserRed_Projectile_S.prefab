@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9116932725857229472}
   - component: {fileID: 9116932725857229473}
   m_Layer: 0
-  m_Name: LaserProjectile
+  m_Name: LaserRed_Projectile_S
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 14497aa19e6fb6d439bf1d4235c5fd94, type: 2}
+  - {fileID: 2100000, guid: 3a83f1227fd10cd4d8ff4ede050d206b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,9 +110,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speed: 1.5
-  maxDistance: 200
+  maxDistance: 80
   m_damageType: energy
-  damage: 50
+  damage: 12
   audioOnFire: {fileID: 8300000, guid: 1ef69c4d8a860ce40915910c94c43ebc, type: 3}
   audioOnCollision: {fileID: 8300000, guid: 712be96abd9ede746ac0fab4a4e78ab5, type: 3}
 --- !u!54 &9116932725857229473

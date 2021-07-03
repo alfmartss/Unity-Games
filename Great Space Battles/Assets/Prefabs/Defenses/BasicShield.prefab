@@ -111,6 +111,10 @@ MonoBehaviour:
   debug: 0
   durability: 100
   destroyOnBreak: 1
+  energyUsagePS: 15
+  energyPrority: 0
+  status: 
+  group: defense/shield
   types:
   - kinetic
   - energy

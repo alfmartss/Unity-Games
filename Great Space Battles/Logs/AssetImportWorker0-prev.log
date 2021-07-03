@@ -15,11 +15,11 @@ C:/Users/Alfonso/Documents/GitHub/Unity-Games/Great Space Battles
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49316
+50487
 Successfully changed project path to: C:/Users/Alfonso/Documents/GitHub/Unity-Games/Great Space Battles
 C:/Users/Alfonso/Documents/GitHub/Unity-Games/Great Space Battles
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,273 +35,163 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003082 seconds.
+Registered in 0.002736 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 25.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.120 seconds
+- Completed reload, in  1.140 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004778 seconds.
+Registered in 0.004779 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
+- Completed reload, in  1.025 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.1 MB.
+Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1828.
-Total: 1.858600 ms (FindLiveObjects: 0.134100 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.613600 ms  DeleteObjects: 0.072500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/Ships/Corvette_Blue.prefab
-  artifactKey: Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ships/Corvette_Blue.prefab using Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c2fe649ec029042c0758c38aa387f4') in 0.111671 seconds
-  Import took 0.114667 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1830.
+Total: 1.796800 ms (FindLiveObjects: 0.145900 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.535300 ms  DeleteObjects: 0.073100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.878813 seconds.
-  path: Assets/Prefabs/Ships/Corvette_Blue.prefab
-  artifactKey: Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ships/Corvette_Blue.prefab using Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba99915a07c9760e7d242d9bfc37e31') in 0.010217 seconds
-  Import took 0.014727 seconds .
+  path: Assets/Scripts/Components/Core.cs
+  artifactKey: Guid(4ea1b399dacef1849baa78563517eae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components/Core.cs using Guid(4ea1b399dacef1849baa78563517eae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0858517e8380c87f7a0d30adbfe8467') in 0.029486 seconds
+  Import took 0.031667 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000621 seconds.
-  path: Assets/Prefabs/Ships/Corvette_Blue.prefab
-  artifactKey: Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ships/Corvette_Blue.prefab using Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba99915a07c9760e7d242d9bfc37e31') in 0.009876 seconds
-  Import took 0.012318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.514529 seconds.
-  path: Assets/Prefabs/Misc/Thruster.prefab
-  artifactKey: Guid(39afb5c236fff044296456ad9c7a797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Misc/Thruster.prefab using Guid(39afb5c236fff044296456ad9c7a797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b22ca22ce6787f66821ec90a15103bc') in 0.010372 seconds
-  Import took 0.014144 seconds .
+  Time since last request: 133.679968 seconds.
+  path: Assets/Scripts/Components/Core.cs
+  artifactKey: Guid(4ea1b399dacef1849baa78563517eae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components/Core.cs using Guid(4ea1b399dacef1849baa78563517eae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f026f8966aecfb1c73cc57b8858a2cd') in 0.001918 seconds
+  Import took 0.004135 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004719 seconds.
+Registered in 0.004506 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.910 seconds
+- Completed reload, in  0.884 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.1 MB.
-System memory in use after: 68.2 MB.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1841.
-Total: 2.252600 ms (FindLiveObjects: 0.145100 ms CreateObjectMapping: 0.044800 ms MarkObjects: 2.008900 ms  DeleteObjects: 0.052800 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 1.826300 ms (FindLiveObjects: 0.133800 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.601200 ms  DeleteObjects: 0.050400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.329968 seconds.
+  Time since last request: 880.703999 seconds.
+  path: Assets/Prefabs/Energy
+  artifactKey: Guid(b65c0eb38a7d1164b85fca9824b9334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Energy using Guid(b65c0eb38a7d1164b85fca9824b9334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4288026761233c56feda0cbbfe5e06') in 0.005811 seconds
+  Import took 0.008696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.567698 seconds.
+  path: Assets/Prefabs/Energy/Reactor.prefab
+  artifactKey: Guid(ac7d15e821bfbdb489eb3b2f97122b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Energy/Reactor.prefab using Guid(ac7d15e821bfbdb489eb3b2f97122b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2e425e55344649991ceefa5e0e9936') in 0.088481 seconds
+  Import took 0.092301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.911578 seconds.
+  path: Assets/Prefabs/Energy/Basic Reactor.prefab
+  artifactKey: Guid(ac7d15e821bfbdb489eb3b2f97122b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Energy/Basic Reactor.prefab using Guid(ac7d15e821bfbdb489eb3b2f97122b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b533b1ed9e9659ace6e26bbc9021e57b') in 0.008097 seconds
+  Import took 0.011334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.648885 seconds.
   path: Assets/Prefabs/Ships/Corvette_Blue.prefab
   artifactKey: Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ships/Corvette_Blue.prefab using Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8a6785bfc6a36ff2b9b1dc9b0a5e71') in 0.058777 seconds
-  Import took 0.062774 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004915 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1845.
-Total: 1.857800 ms (FindLiveObjects: 0.129400 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.640600 ms  DeleteObjects: 0.047100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004623 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.930 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1848.
-Total: 3.534000 ms (FindLiveObjects: 0.216500 ms CreateObjectMapping: 0.058500 ms MarkObjects: 3.168000 ms  DeleteObjects: 0.089500 ms)
+Start importing Assets/Prefabs/Ships/Corvette_Blue.prefab using Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32952e9f71aaf8b709a799aafafc302b') in 0.014920 seconds
+  Import took 0.018716 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 512.147447 seconds.
-  path: Assets/Prefabs/Weapons/BasicCannon.prefab
-  artifactKey: Guid(ec91430028dda144287b66a65936dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/BasicCannon.prefab using Guid(ec91430028dda144287b66a65936dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde9b6692136b26ed0980888bc13598e') in 0.057045 seconds
-  Import took 0.060339 seconds .
+  Time since last request: 54.719203 seconds.
+  path: Assets/Prefabs/Ships/Corvette_Blue.prefab
+  artifactKey: Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Corvette_Blue.prefab using Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d76a3b1414f776a091766fb21a60a7f') in 0.011094 seconds
+  Import took 0.014990 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 256.529469 seconds.
-  path: Assets/Prefabs/Weapons/LaserCannon.prefab
-  artifactKey: Guid(91a449349361bfa40abef5d257e021b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/LaserCannon.prefab using Guid(91a449349361bfa40abef5d257e021b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a7957e730a5bacda91bcc9544c8e80') in 0.010054 seconds
-  Import took 0.012781 seconds .
+  Time since last request: 166.602704 seconds.
+  path: Assets/Prefabs/Defenses/BasicArmor.prefab
+  artifactKey: Guid(7882717827dd2ab4783321507813d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenses/BasicArmor.prefab using Guid(7882717827dd2ab4783321507813d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af78f402f8f12d2aec7cc112f7863812') in 0.009198 seconds
+  Import took 0.012342 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.024561 seconds.
-  path: Assets/Prefabs/Weapons/LaserCannon.prefab
-  artifactKey: Guid(91a449349361bfa40abef5d257e021b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/LaserCannon.prefab using Guid(91a449349361bfa40abef5d257e021b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a7957e730a5bacda91bcc9544c8e80') in 0.007308 seconds
-  Import took 0.009755 seconds .
+  Time since last request: 102.003214 seconds.
+  path: Assets/Prefabs/Energy/Basic Reactor.prefab
+  artifactKey: Guid(ac7d15e821bfbdb489eb3b2f97122b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Energy/Basic Reactor.prefab using Guid(ac7d15e821bfbdb489eb3b2f97122b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b61463db2f9564eae8c5739f260817') in 0.007919 seconds
+  Import took 0.010577 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.073353 seconds.
-  path: Assets/Prefabs/Weapons/BasicCannon.prefab
-  artifactKey: Guid(ec91430028dda144287b66a65936dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/BasicCannon.prefab using Guid(ec91430028dda144287b66a65936dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1319b921f1bcdd0056a511389a7c8874') in 0.009570 seconds
-  Import took 0.012065 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008380 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1852.
-Total: 1.882700 ms (FindLiveObjects: 0.140600 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.645700 ms  DeleteObjects: 0.052700 ms)
+  Time since last request: 1300.662791 seconds.
+  path: Assets/Prefabs/Energy/SolarPanel.prefab
+  artifactKey: Guid(21a4700ca874e6742933e6aebed3686b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Energy/SolarPanel.prefab using Guid(21a4700ca874e6742933e6aebed3686b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4ba29bbb6007f4149e60824aeaf086') in 0.009042 seconds
+  Import took 0.011786 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.857196 seconds.
-  path: Assets/Prefabs/Weapons/BasicCannon.prefab
-  artifactKey: Guid(ec91430028dda144287b66a65936dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/BasicCannon.prefab using Guid(ec91430028dda144287b66a65936dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b157f0e708604be150824cd96db4570') in 0.052580 seconds
-  Import took 0.054997 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005032 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1856.
-Total: 1.973200 ms (FindLiveObjects: 0.238700 ms CreateObjectMapping: 0.058000 ms MarkObjects: 1.621400 ms  DeleteObjects: 0.054000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004488 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1859.
-Total: 1.826500 ms (FindLiveObjects: 0.138200 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.594200 ms  DeleteObjects: 0.050700 ms)
+  Time since last request: 3.759031 seconds.
+  path: Assets/Prefabs/Energy/Battery.prefab
+  artifactKey: Guid(c5c21cd6c00fd2c4db272825b129214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Energy/Battery.prefab using Guid(c5c21cd6c00fd2c4db272825b129214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947512629d2549ec02ab4bcf67662a2a') in 0.008943 seconds
+  Import took 0.012135 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 418.292720 seconds.
-  path: Assets/Prefabs/Misc/Thruster.prefab
-  artifactKey: Guid(39afb5c236fff044296456ad9c7a797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Misc/Thruster.prefab using Guid(39afb5c236fff044296456ad9c7a797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1408865c4191f0e78e2318a7f308685') in 0.053511 seconds
-  Import took 0.056500 seconds .
+  Time since last request: 350.914983 seconds.
+  path: Assets/Prefabs/Defenses/BasicArmor.prefab
+  artifactKey: Guid(7882717827dd2ab4783321507813d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenses/BasicArmor.prefab using Guid(7882717827dd2ab4783321507813d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597ca6e62ff27a96d89b7b4d792a5640') in 0.007348 seconds
+  Import took 0.010902 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005836 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1863.
-Total: 2.200300 ms (FindLiveObjects: 0.137600 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.965000 ms  DeleteObjects: 0.055100 ms)
+Received Import Request.
+  Time since last request: 5.388616 seconds.
+  path: Assets/Prefabs/Ships/Corvette_Blue.prefab
+  artifactKey: Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Corvette_Blue.prefab using Guid(9431862c7f6c84d49b8f5a1225835a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd2c57b9084de6c2bc297e5832126a0') in 0.011973 seconds
+  Import took 0.014798 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

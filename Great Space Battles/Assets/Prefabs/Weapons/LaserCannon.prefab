@@ -111,7 +111,11 @@ MonoBehaviour:
   debug: 0
   durability: 100
   destroyOnBreak: 1
+  energyUsagePS: 5
+  energyPrority: 0
+  status: 
+  group: weapons/lasers
   projectilePrefab: {fileID: 9116932725857229403, guid: 7f03ce74d8cc6044aa284695b290c022, type: 3}
   fireRate: 2
-  fireRange: 50
+  fireRange: 80
   target: {fileID: 0}

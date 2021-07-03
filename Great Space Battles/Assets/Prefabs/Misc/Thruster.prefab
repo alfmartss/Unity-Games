@@ -113,6 +113,10 @@ MonoBehaviour:
   debug: 0
   durability: 100
   destroyOnBreak: 1
+  energyUsagePS: 10
+  energyPrority: 0
+  status: 
+  group: thrusters
   speed: 1
 --- !u!54 &4804933674326888241
 Rigidbody:

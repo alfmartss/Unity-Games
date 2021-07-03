@@ -112,7 +112,12 @@ MonoBehaviour:
   debug: 1
   durability: 100
   destroyOnBreak: 0
+  energyUsagePS: 10
+  energyPrority: 0
+  status: 
+  group: core
   faction: BLUE
+  targetingStrategy: 
 --- !u!82 &-1657270227849787094
 AudioSource:
   m_ObjectHideFlags: 0
