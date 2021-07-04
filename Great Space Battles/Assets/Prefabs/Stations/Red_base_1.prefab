@@ -191,7 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ea1b399dacef1849baa78563517eae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debug: 0
+  debug: 1
   durability: 100
   destroyOnBreak: 0
   energyUsagePS: 10
@@ -199,7 +199,7 @@ MonoBehaviour:
   status: 
   group: core
   faction: RED
-  targetingStrategy: 
+  battleRole: 
 --- !u!82 &6469263987560119257
 AudioSource:
   m_ObjectHideFlags: 0

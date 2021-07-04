@@ -10,7 +10,7 @@ public class Weapon : ShipComponent
     [SerializeField]
     float fireLapse = 1.0f;
     [SerializeField]
-    float fireRange = 50.0f;
+    public float fireRange { get; private set; }
 
     public GameObject target;
     private AudioSource audioSource;
@@ -20,6 +20,8 @@ public class Weapon : ShipComponent
     void Start()
     {
         audioSource = gameObject.GetComponentInParent<AudioSource>();
+        Projectile p = projectilePrefab.GetComponent<Projectile>();
+        fireRange = p.maxDistance;
         Invoke("TryShootAgain", fireLapse);
     }
 
@@ -31,15 +33,26 @@ public class Weapon : ShipComponent
 
     void TryShootAgain()
     {
-        if (isOn && target!=null)
+        Debug("Weapon.TryShootAgain");
+        if (IsOn()){
+            if (target!=null)
+            {
+                FireProjectile();
+            }
+            else
+            {
+                Debug("Weapon.TryShootAgain.TargetIsNull");
+            }            
+        }    
+        else
         {
-            FireProjectile();
-        }        
+            Debug("Weapon.TryShootAgain.isOff");
+        }
         Invoke("TryShootAgain", fireLapse);
     }
 
     private void FireProjectile()      // ABSTRACTION
-    {
+    {        
         Vector3 direction = target.transform.position - transform.position;
         Projectile.Fire(gameObject, direction, projectilePrefab, audioSource);
     }

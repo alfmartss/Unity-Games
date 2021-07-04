@@ -9,7 +9,8 @@ public class Projectile : MonoBehaviour
     private float m_speed;
 
     [SerializeField]
-    private float maxDistance;
+    public float maxDistance { get; }    
+    
 
     private Vector2 v_speed;
     

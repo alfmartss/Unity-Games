@@ -7,7 +7,7 @@ public class ShipComponent : MonoBehaviour
 {
     [SerializeField]
     private bool debug = false;
-    protected bool isOn = true;
+    private bool isOn = true; 
     [SerializeField]
     private int durability = 100;
     [SerializeField]
@@ -23,13 +23,18 @@ public class ShipComponent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public bool IsOn()
+    {
+        return isOn;
     }
 
     public virtual void Damage(int damage, string type)  // ABSTRACTION

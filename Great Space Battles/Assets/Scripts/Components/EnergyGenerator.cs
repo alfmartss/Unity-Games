@@ -54,12 +54,12 @@ public class EnergyGenerator : ShipComponent
     public override float EnergyUsed(float seconds, string mode)
     {
         CheckMode(mode);
-        return isOn ? currentInput * seconds : 0.0f ;
+        return IsOn() ? currentInput * seconds : 0.0f ;
     }
 
     public float EnergyProduced(float seconds, string mode)
     {
-        if (isOn)
+        if (IsOn())
         {
             CheckMode(mode);
             if (generatedEnergy > 0)
@@ -78,7 +78,7 @@ public class EnergyGenerator : ShipComponent
     public bool GetEnergy(float energy, float seconds, string mode)
     {
         float needed = energy;
-        if (isOn)
+        if (IsOn())
         {
             CheckMode(mode);
             if (currentOutput <= needed)

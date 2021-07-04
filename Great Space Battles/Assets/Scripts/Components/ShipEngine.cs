@@ -16,7 +16,7 @@ public class ShipEngine : ShipComponent // INHERITANCE
     // Update is called once per frame
     void Update()
     {
-        if (isOn)
+        if (IsOn())
         {
             transform.parent.Translate(Vector3.forward * speed * Time.deltaTime);
         }

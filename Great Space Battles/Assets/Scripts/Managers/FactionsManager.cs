@@ -3,19 +3,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FactionsManager 
+public class FactionsManager : MonoBehaviour
 {
-    private static Dictionary<string, FactionController> factions = new Dictionary<string, FactionController>();
+    private float BattleLoopLapse = 15.0f;
+    private static Dictionary<string, FactionBattleController> factions = new Dictionary<string, FactionBattleController>();
 
+    void Start()
+    {
+        Invoke("BattleLoop", 2.0f);
+    }
 
-    public static FactionController GetFactionController(string name)
+    private void BattleLoop()
+    {
+        
+        foreach (FactionBattleController fc in factions.Values)
+        {
+            fc.BattleLoop();
+        }
+        Invoke("BattleLoop", BattleLoopLapse);
+    }
+
+    public static FactionBattleController GetFactionController(string name)
     {
         if (factions.ContainsKey(name))
         {
             return factions[name];
         } else
         {
-            FactionController f = new FactionController(name);
+            FactionBattleController f = new FactionBattleController(name);
             factions.Add(name, f);
             return f;
         }
