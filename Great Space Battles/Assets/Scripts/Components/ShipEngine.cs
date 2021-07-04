@@ -18,7 +18,7 @@ public class ShipEngine : ShipComponent // INHERITANCE
     {
         if (isOn)
         {
-            transform.parent.Translate(Vector2.left * speed * Time.deltaTime);
+            transform.parent.Translate(Vector3.forward * speed * Time.deltaTime);
         }
          
     }
