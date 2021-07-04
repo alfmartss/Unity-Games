@@ -34,15 +34,18 @@ public class ShipComponent : MonoBehaviour
 
     public virtual void Damage(int damage, string type)  // ABSTRACTION
     {
-        Debug("ShipComponent.Damage");
-        durability -= damage;
-        if (durability<0)
+        if (durability>=0)
         {
-            SetOff("broken");
-            if (destroyOnBreak)
+            Debug("ShipComponent.Damage");
+            durability -= damage;
+            if (durability < 0)
             {
-                NotifyCore();
-                Destroy(gameObject);
+                SetOff("broken");
+                if (destroyOnBreak)
+                {
+                    NotifyCore();
+                    Destroy(gameObject);
+                }
             }
         }
     }

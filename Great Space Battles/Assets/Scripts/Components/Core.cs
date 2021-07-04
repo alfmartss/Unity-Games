@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class Core : ShipComponent
 {
-    private static List<Core> instances = new List<Core>();
+    private static List<Core> allCores = new List<Core>();
     public string faction;
+    private FactionController factionController;
 
     private List<Weapon> weapons;
     private List<EnergyGenerator> generators;
@@ -24,7 +25,10 @@ public class Core : ShipComponent
 
     private void Start()
     {
-        instances.Add(this);
+        factionController = FactionsManager.GetFactionController(faction);
+        factionController.AddShip(this);
+        allCores.Add(this);
+
         weapons = new List<Weapon>(gameObject.GetComponentsInChildren<Weapon>());
         Debug("Weapons detected: " + weapons.Count);
         Invoke("TargetingSystemLoop", UnityEngine.Random.Range(targetingLoopLapse/2, targetingLoopLapse));
@@ -204,7 +208,8 @@ public class Core : ShipComponent
         Debug("Core.Setoff");
         base.SetOff(status);
         //
-        instances.Remove(this);
+        allCores.Remove(this);
+        factionController.RemoveShip(this);
         // loop 
         ShipComponent[] cs = gameObject.GetComponentsInChildren<ShipComponent>();
         foreach (ShipComponent c in cs)
@@ -243,7 +248,7 @@ public class Core : ShipComponent
     private Core[] DetectEnemys()
     {
         List<Core> enemyCores = new List<Core>();
-        foreach (Core core in instances)
+        foreach (Core core in allCores)
         {
             if (core.faction!=this.faction)
             {
